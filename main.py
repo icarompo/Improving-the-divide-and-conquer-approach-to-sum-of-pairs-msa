@@ -61,7 +61,7 @@ def display_results(k_values, sequences, original_times, improved_times, origina
             table.append(row)
     print(tabulate(table, headers=headers, tablefmt="grid"))
 
-def plot_static_graphs():
+def plot_graphs():
     plt.figure(figsize=(10, 6))
     for k, times in cpu_times.items():
         plt.plot(n_values, times, marker='o', label=f'K={k}')
@@ -92,7 +92,7 @@ def main():
     original_times, improved_times, original_memory, improved_memory = run_algorithms(k_values, sequences)
     display_results(k_values, sequences, original_times, improved_times, original_memory, improved_memory)
     
-    plot_static_graphs()
+    plot_graphs()
 
 if __name__ == "__main__":
     main()
