@@ -1,4 +1,8 @@
-# Improving the divide and conquer approach to sum of pairs Multiple Sequence Alignment
+# Aprimorando a técnica de dividir e conquistar para o alinhamento de múltiplas sequências de pares
+
+Esse é um artigo e estudo sobre o aprimoramento da técnica de dividir e conquistar para o alinhamento de múltiplas sequências de pares. Muito utilizado em bioinformática para alinhar sequências de DNA, RNA e proteínas.
+
+O repositório contém o código em python que implementa a técnica de dividir e conquistar para o alinhamento de múltiplas sequências de pares, além do artigo em pdf traduzido, o código fonte em latex e os slides da apresentação.
 
 ## Rodando o código
 
